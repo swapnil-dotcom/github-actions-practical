@@ -33,7 +33,7 @@ jobs:
               uses: actions/checkout@v2
 
             - name: Run Transform Job
-              run: pyton transform.py
+              run: python transform.py
 
     load-job:
         runs-on: ubuntu-latest
