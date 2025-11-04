@@ -19,6 +19,9 @@ jobs:
             - name: Show Python Version 
               run: python --version 
 
+            - name: Install Dependencies 
+              run: pip install -r requirements.txt
+
             - name: Run Extract Job
               run: python extract.py
 
